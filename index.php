@@ -9,6 +9,14 @@ spl_autoload_register(function ($class) {
     }
 });
 
+
 $bob = new Dog("Bob");
 echo $bob->bark();
 
+$valor = 75;
+
+function nomeDaFuncao($var){
+    echo $var;
+}
+
+nomeDaFuncao($valor);
