@@ -6,11 +6,12 @@
    */
 class IndexView
 {
-   public function index(): string
+   public function indesx(): string
    {
       return 'home.php';
    }
-   public function otherView():string{
+   public function otherView(): string
+   {
       return 'other.html';
    }
 }
