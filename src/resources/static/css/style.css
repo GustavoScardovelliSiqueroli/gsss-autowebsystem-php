@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+body{
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p2/2078377-aquarela-fofa-petala-flor-sem-costura-padrao-gr%C3%A1tis-vetor.jpg");
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Noto Sans JP", sans-serif;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
 }
 h1{
     background-color: red;
@@ -12,4 +25,9 @@ h1{
     bottom: 0;
     width: 100%;
     height: 60px;
+}
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(244, 133, 218);
 }

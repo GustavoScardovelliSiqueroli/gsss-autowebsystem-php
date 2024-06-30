@@ -6,7 +6,7 @@
    */
 class IndexView
 {
-   public function indesx(): string
+   public function index(): string
    {
       return 'home.php';
    }
