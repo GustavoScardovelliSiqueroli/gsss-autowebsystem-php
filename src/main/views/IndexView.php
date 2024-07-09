@@ -8,7 +8,8 @@ class IndexView
 {
    public function index(): string
    {
-      return 'home.php';
+      include __DIR__ . './../services/userService.php';
+      return 'home.html';
    }
    public function otherView(): string
    {
